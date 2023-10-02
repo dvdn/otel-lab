@@ -14,4 +14,4 @@ Utilisez l'auto-instrumentation pour récolter les informations de l'application
 
 ## Instrumentation manuelle
 
-Ajouter de l'instrumentation manuelle pour récolter plus de données sur l'application [Python](python) et l'application [Java](java).
+Ajoutez de l'instrumentation manuelle pour récolter plus de données sur l'application [Python](python) et l'application [Java](java).
