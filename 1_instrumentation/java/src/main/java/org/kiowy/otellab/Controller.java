@@ -22,6 +22,6 @@ public class Controller {
 
   private void doWork(int sleepTime) throws InterruptedException {
       Thread.sleep(sleepTime);
-      LOGGER.info("A sample log message!");
+      LOGGER.info("A sample log message !");
   }
 }

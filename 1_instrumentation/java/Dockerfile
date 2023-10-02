@@ -1,6 +1,6 @@
 FROM eclipse-temurin:11-jre
 
-ADD build/libs/app.jar /app.jar
-ADD build/agent/opentelemetry-javaagent.jar /opentelemetry-javaagent.jar
+ADD build/libs/otellab-0.0.1-SNAPSHOT.jar /app.jar
+# OTEL_AGENT
 
-ENTRYPOINT java -jar -javaagent:/opentelemetry-javaagent.jar /app.jar
+#ENTRYPOINT java -jar -javaagent:/[OTEL_AGENT].jar /app.jar
