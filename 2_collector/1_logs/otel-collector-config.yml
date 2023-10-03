@@ -1,0 +1,10 @@
+receivers:
+  #TODO ;)
+exporters:
+  debug:
+    verbosity: detailed
+service:
+  pipelines:
+    logs:
+      receivers: [#TODO]
+      exporters: [debug]
