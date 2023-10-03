@@ -9,7 +9,7 @@ Vous souhaitez utiliser OpenTelemetryCollector pour récupérer les logs des Pod
 * Filtre les logs provenant des conteneurs ``
 * Ajoute l'attribut `attributes.time` depuis le timestamp du log
 * Extrait les informations de pod_name, container_name, restart_count
-* Remplis les informations dans les attributs conventionnés `log.iostream`, `k8s.container.name`, `k8s.namespace.name`, `k8s.pod.name, `k8s.container.restart_count`, `k8s.pod.uid`
+* Remplis les informations dans les attributs conventionnés `log.iostream, k8s.container.name, k8s.namespace.name, k8s.pod.name, k8s.container.restart_count, k8s.pod.uid`
 
 Le résultat sera affiché sur la sortie standard du collecteur.
 
