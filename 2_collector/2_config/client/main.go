@@ -72,8 +72,7 @@ func initProvider() func() {
 
 	traceClient := otlptracegrpc.NewClient(
 		otlptracegrpc.WithInsecure(),
-		otlptracegrpc.WithEndpoint(otelAgentAddr),
-		otlptracegrpc.WithDialOption(grpc.WithBlock()))
+		otlptracegrpc.WithEndpoint(otelAgentAddr))
 	sctx, cancel := context.WithTimeout(ctx, time.Second)
 	defer cancel()
 	traceExp, err := otlptrace.New(sctx, traceClient)
