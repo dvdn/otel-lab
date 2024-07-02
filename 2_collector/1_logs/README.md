@@ -6,7 +6,7 @@ Vous souhaitez utiliser OpenTelemetryCollector pour récupérer les logs des Pod
 
 Écrire une configuration dans le `otel-collector-config.yaml` qui :
 * Lis les fichiers de logs dans `varlogpods`.
-* Filtre les logs provenant des conteneurs ``
+* Filtre les logs provenant des conteneurs `otel-collector`
 * Ajoute l'attribut `attributes.time` depuis le timestamp du log
 * Extrait les informations de pod_name, container_name, restart_count (format `/var/log/pods/<namespace>_<pod_name>_<pod_uid>/<container>/<restart_count>.log`)
 * Remplis les informations dans les attributs conventionnés `log.iostream, k8s.container.name, k8s.namespace.name, k8s.pod.name, k8s.container.restart_count, k8s.pod.uid`
