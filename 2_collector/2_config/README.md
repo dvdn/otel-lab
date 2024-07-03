@@ -26,7 +26,7 @@ Un collecteur à configurer (voir le docker-compose.yaml).
 
 4. Modifiez la configuration pour envoyer les spans du client vers Zipkin et celles du serveur vers Jaeger
 
-5. Trouvez un moyen de récupérer la télémtrie fournie par Docker (pour avoir la conso cpu/ram par exemple)
+5. Trouvez un moyen de récupérer la télémétrie fournie par Docker (pour avoir la conso cpu/ram par exemple)
 
 6. Ajoutez un label à une métrique
 
