@@ -8,9 +8,9 @@ Réalisez l'instrumentation d'un applicatif [Python](python) et d'un applicatif 
 docker-compose up -d
 ```
 
-## Auto-instrumentation 
+## Zero-code
 
-Utilisez l'auto-instrumentation pour récolter les informations de l'application [Python](python) et l'application [Java](java).
+Utilisez l'instrumentation zero-code pour récolter les informations de l'application [Python](python) et l'application [Java](java).
 
 ## Instrumentation manuelle
 
