@@ -5,7 +5,7 @@ Réalisez l'instrumentation d'un applicatif [Python](python) et d'un applicatif 
 ## Demarrer l'environnement
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Zero-code
