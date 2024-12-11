@@ -1,6 +1,13 @@
 version: "2"
 services:
 
+  myapp:
+    restart: always
+    build:
+      context: python #change to java if you want to build java
+    ports:
+      - "8080:8080"
+
   # Jaeger
   jaeger-all-in-one:
     image: jaegertracing/all-in-one:latest
