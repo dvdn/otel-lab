@@ -27,7 +27,6 @@ import (
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 	"go.opentelemetry.io/otel/trace"
-	"google.golang.org/grpc"
 )
 
 var rng = rand.New(rand.NewSource(time.Now().UnixNano()))
@@ -153,7 +152,6 @@ func main() {
 			http.Error(w, "write operation failed.", http.StatusInternalServerError)
 			return
 		}
-
 	})
 
 	mux := http.NewServeMux()
